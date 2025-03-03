@@ -5,6 +5,16 @@ public class User {
 	private String name;
 	
 	private String surname;
+	
+	private int idade;
+
+	public int getIdade() {
+		return idade;
+	}
+
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
 
 	public String getName() {
 		return name;
