@@ -13,6 +13,10 @@ public class User {
 	private Date dataNascimento;
 	
 	private Date dataCadastro
+	
+	private String nome() {
+		
+	}
 
 	public Date getDataNascimento() {
 		return dataNascimento;
